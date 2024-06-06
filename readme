@@ -1,0 +1,20 @@
+npm i --save-dev vite-plugin-eslint eslint-config-react-app eslint
+npm i styled-components
+npm i react-router-dom@6
+npm i react-icons
+npm i --save @supabase/supabase-js
+npm i @tanstack/react-query@4
+npm i @tanstack/react-query-devtools
+npm i react-hot-toast
+npm i react-hook-form@7
+npm i date-fns
+npm i recharts
+npm i react-error-boundary
+
+the-wild-oasis-v password
+w01FlWL66Dm7Lryx
+
+
+upload to netlify
+
+npm run build
