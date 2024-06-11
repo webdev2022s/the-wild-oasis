@@ -47,7 +47,9 @@ export default function TodayList({ data }) {
           Check-in
         </Button>
       )}
-      {status === "check-in" && <CheckOutBtn id={id}>Check-out</CheckOutBtn>}
+      {status === "check-in" && (
+        <CheckOutBtn data={data}>Check-out</CheckOutBtn>
+      )}
     </StyledLi>
   );
 }

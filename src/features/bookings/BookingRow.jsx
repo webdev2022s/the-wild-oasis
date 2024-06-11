@@ -139,7 +139,7 @@ export default function BookingRow({ booking }) {
               <MenuCompound.Button
                 color="red"
                 icon={<HiArrowUpOnSquareStack />}
-                onClick={() => handleCheckOutEvent()}
+                onClick={() => handleCheckOutEvent(booking)}
                 disabled={isCheckOut}
               >
                 Check-Out
