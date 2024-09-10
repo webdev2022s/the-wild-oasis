@@ -8,6 +8,8 @@ export async function getBooking({ filterData, sortBy, pageData }) {
     .from("bookings")
     .select("*, cabins(*),guests(*)", { count: "exact" }); // count get data from you database just use exact to get them all
   //filter
+
+  console.log(filterData, sortBy, pageData);
   if (filterData) query = query.eq(filterData.field, filterData.value);
   //sort
   if (sortBy)
